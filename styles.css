@@ -1,12 +1,15 @@
 /* This is a comment */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Calibri, sans-serif;
   background-color: #f4f4f4;
 }
 
 h1 {
-  color: #333;
-  text-align: center;
+  color: #321;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 }
 
 .container {
