@@ -1,13 +1,21 @@
 /* This is a comment */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Calibri, sans-serif;
   background-color: #f4f4f4;
 }
 
 h1 {
+<<<<<<< HEAD
   color: #213;
   text-align: right;
   margin-top: 20px;
+=======
+  color: #321;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+>>>>>>> rama2
 }
 
 .container {
