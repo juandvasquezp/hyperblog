@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>title2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <h1>Hola como estan todos los estudiantes</h1>
-    <h2>Hola a los demás estiantes</h2>
-    <h3>Hola sinsoste</h3>
-    <h2>Hola sisas</h2>
-    <h3>Hola3</h3>
-    <h3>Hola4</h3>
-    <h3>Hola5</h3>
-    <h1>Hola como estan todos los estudiantes</h1>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <div id="app">{{ text }}</div>
+    <script>
+        const vm = Vue.createApp({
+            data() {
+                return {
+                    text: 'Hello Vue!'
+                }
+            }
+        }).mount('#app');
+        console.log(vm);
+    </script>
 </body>
 </html>
